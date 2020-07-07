@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* HEADER  */
+
+header {
+    font-size: 0.8rem;
+}
+
+header .header__top {
+    border-bottom: 1px solid #5c5c5c;
+}
+
+header .header__top__item {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.header-top__right ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    border-right: 1px solid #333;
+}
+
+.header-top__right ul li a {
+    text-decoration: none;
+    color: rgba(14, 13, 13, 1);
+    font-size: 0.8rem;
+}
+
+.header-top__right ul li a i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.header__bottom {
+    width: 80%;
+    margin: auto;
+}
+
+.header__bottom .navbar--custom .navbar-brand img {
+    width: 150px;
+}
+
+.header__bottom .navbar--custom .navbar-collapse .navbar-nav .nav-link .fa-bars {
+    font-size: 20px;
+    margin: 0 10px;
+    margin-top: 15px;
+}
+
+.header__bottom .navbar--custom .navbar-collapse .navbar-nav {
+    width: 100%;
+}
+
+.header__bottom .navbar--custom .navbar-collapse .nav-item--phone {
+    font-size: 25px;
+    width: 20%;
+    position: relative;
+}
+
+.header__bottom .navbar--custom .navbar-collapse .nav-item--phone .fa-phone {
+    color: rgb(235, 235, 62);
+    font-size: 2.5rem;
+    transform: rotateX(20deg) rotateY(180deg);
+}
+
+.header__bottom .navbar--custom .navbar-collapse .nav-item--phone span {
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+
+.header__bottom .navbar--custom .myForm {
+    position: relative;
+}
+
+.header__bottom .navbar--custom .myForm input {
+    width: 500px !important;
+    border-radius: 15px;
+    border: 3px solid rgb(235, 235, 62);
+}
+
+.header__bottom .navbar--custom .myForm input:focus {
+    box-shadow: none;
+}
+
+.header__bottom .navbar--custom .myForm button {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    border-top-right-radius: 15px;
+    padding: 5px 20px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(235, 235, 62);
+    border: transparent;
+}
+
+.header__bottom .navbar--custom .myForm p {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: #5c5c5c;
+}
+
+.header__bottom .navbar--custom .myForm button i {
+    color: #333;
+}
+
+.header__bottom .navbar--custom .myForm input::placeholder {
+    font-size: 13px;
+}
+
+
+/* END HEADER  */
